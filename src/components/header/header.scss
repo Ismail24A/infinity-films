@@ -1,0 +1,15 @@
+.header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    background-color: rgb(12, 1, 65);
+
+    .logo {
+        height: 100%;
+        width: 70px;
+        justify-content: center;
+        margin-left: 12px;
+    }
+}

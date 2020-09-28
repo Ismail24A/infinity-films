@@ -1,0 +1,22 @@
+.pagination{
+    padding: 40px;
+    text-align: center;
+
+        button{
+            padding: 10px;
+            margin: 0 10px;
+            color: white;
+            width: 50px;
+            background-color: rgb(2, 1, 39);
+            border: solid 2px red;
+            border-radius: 2rem;
+            cursor: pointer;
+            &:focus{
+                outline: none;
+            }
+            &:disabled{
+                opacity: 0.5;
+                cursor: not-allowed;
+            }
+        }
+}

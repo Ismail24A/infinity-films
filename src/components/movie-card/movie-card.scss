@@ -1,0 +1,59 @@
+.movie-card{
+    height: 500px;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: rgba(8, 2, 56, 0.877);
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.432);;
+    text-align: center;
+    margin: 15px;
+    cursor: pointer;
+
+    &:hover{
+        .movie-overview{
+            transform: translateY(0);
+        }  
+    }
+    .rating{
+        position: absolute;
+        color: black;
+        margin-top: 12px;
+        margin-left: 12px;
+    }
+
+    .icon{
+      position: absolute;
+      margin-top: 5px;
+      margin-left: 5px;
+    }
+
+    .poster {
+        height: 75%;
+        width: 100%;
+    }
+    .movie-title{
+        margin: 0;
+        padding: 5px;
+        font-size: 14px;
+        font-weight: 800;
+        height: 10%;
+    }
+    .year{
+        color: rgba(82, 81, 81, 0.815);
+    }
+    .movie-overview{
+        position: absolute;
+        overflow: auto;
+        color: black;
+        padding: 5px 10px;
+        background-color: white;
+        height: 85%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transform: translateY(101%);
+        transition: transform 0.3s ease-in-out;
+    }
+
+}
